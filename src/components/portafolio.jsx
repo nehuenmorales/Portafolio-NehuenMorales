@@ -1,49 +1,28 @@
 import React from 'react';
 import s from './portafolio.module.css'
+import { Image } from '@chakra-ui/react'
 
 
 export default function Portafolio() {
     return (
 
-        <div className={s.portafolio}>
-            {/* NAVBAR */}
-            <div >
-                <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+        <div >
 
             {/* PORTADA */}
-            <div className={s.portada}>
-                <h1>Nehuen Morales</h1>
-                <h3>Full-Stack developer</h3>
+            <div>
+                <div className={s.encabezado}>
+                    <h1 className={s.h1}>Nehuen Morales</h1>
+                    <h3 className={s.h3} >Full-Stack developer</h3>
+                </div>
+                <Image
+                    borderRadius='full'
+                    boxSize='150px'
+                    src="https://i.ibb.co/Nx5Qgc5/imagen-perfil.jpg"
+                    alt='img'
+                />
+
             </div>
+
             {/* ACERCA DE MI  */}
             <div>
                 <h3>Acerca de mi</h3>
