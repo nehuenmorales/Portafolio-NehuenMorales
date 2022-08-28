@@ -1,0 +1,42 @@
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 3em;
+     background: linear-gradient(90deg, rgba(0,162,164,1) 0%, rgba(215,0,152,1) 77%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h3{
+    font-size: 2em;
+     background:linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(215,0,152,1) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portada{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobremi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 100%;
+}

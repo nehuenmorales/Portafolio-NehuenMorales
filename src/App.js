@@ -3,7 +3,8 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
 import { FaSun, FaMoon, FaGithub, FaLinkedin } from 'react-icons/fa'
 import './App.css';
-import Portafolio from './components/portafolio';
+import Header from './components/Header/Header';
+import About from "./components/about/About";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -20,9 +21,12 @@ function App() {
         <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={()=> window.open("https://github.com/nehuenmorales")} ></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
       </Flex>
-      <Portafolio background="linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 61%, rgba(0,212,255,1) 100%);"></Portafolio>
+      <Header ></Header>
+      <About></About>
     </VStack>
   );
 }
+
+// background="linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 61%, rgba(0,212,255,1) 100%);"
 
 export default App;
