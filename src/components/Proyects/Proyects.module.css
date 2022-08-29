@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.faltauno{
+    /* background-image: url(https://i.ibb.co/LC6bcLB/Falta-Uno-App.png); */
+    /* object-fit: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    /* height: 20em; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.margin{
+    margin-top: 50px !important
+}
+.tab{
+    margin-top: 50px
+}
+.img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo, .parrafo{
+    margin: 1.5em;
+    padding: 1em;
+    color: white;
+}
+
+.titulo{
+    padding-bottom: 0%;
+    position: relative;
+    left: 100%;
+    font-size: 1.5em;
+    transition: all .3s;
+}
+.contenedorImg:hover .titulo{
+    left: 0%;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+.parrafo{
+    margin-top: 0%;
+    padding-top: 0%;
+    position: relative;
+    right: 100%;
+    transition: all .3s;
+
+}
+.contenedorImg:hover .parrafo{
+    right: 0%;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+
+.contenedorImg{
+    overflow: hidden;
+    position: relative;
+    transition: all .3s;
+}
+
+.contenedorImg:hover img{
+    filter: blur(2px);
+    transition: all .5s;
+    transform: scale(1.1);
+}
+
+.contenedorImg::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    transition: all .3s;
+}
+
+.contenedorImg:hover:before{
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    transition: all .3s;
+}

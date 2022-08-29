@@ -5,6 +5,7 @@ import { FaSun, FaMoon, FaGithub, FaLinkedin } from 'react-icons/fa'
 import './App.css';
 import Header from './components/Header/Header';
 import About from "./components/about/About";
+import Proyects from "./components/Proyects/Proyects";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -23,6 +24,7 @@ function App() {
       </Flex>
       <Header ></Header>
       <About></About>
+      <Proyects></Proyects>
     </VStack>
   );
 }

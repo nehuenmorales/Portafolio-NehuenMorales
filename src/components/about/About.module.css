@@ -4,5 +4,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    min-height: 90vh;
+}
+.margin{
+    margin-bottom: 100px;
 }
