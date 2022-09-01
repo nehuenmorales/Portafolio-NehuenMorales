@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import About from "./components/about/About";
 import Proyects from "./components/Proyects/Proyects";
+import Skils from "./components/Skils/Skils";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -25,6 +26,7 @@ function App() {
       <Header ></Header>
       <About></About>
       <Proyects></Proyects>
+      <Skils></Skils>
     </VStack>
   );
 }

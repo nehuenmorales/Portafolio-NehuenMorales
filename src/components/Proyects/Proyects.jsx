@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Divider } from '@chakra-ui/react'
 import { IconButton } from "@chakra-ui/button";
 import { FaYoutube, FaGithub, FaGoogle } from 'react-icons/fa'
 
@@ -55,6 +55,7 @@ export default function Proyects() {
                     </TabPanel>
                 </TabPanels>
             </Tabs>
+            <Divider orientation='horizontal' />
         </div>
     )
 }
