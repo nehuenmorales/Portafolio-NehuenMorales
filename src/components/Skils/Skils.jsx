@@ -4,11 +4,19 @@ import { Avatar, AvatarBadge, AvatarGroup, Wrap, WrapItem } from '@chakra-ui/rea
 import { FaReact } from 'react-icons/fa'
 import { IconButton } from "@chakra-ui/button";
 import s from "./Skils.module.css"
+import { skils } from "../../DB/SkilsDB";
+import SkilCard from "./SkilCard";
 
 
 
 export default function Skils() {
     return (
-        <div></div>
+        <div>
+            {
+                skils.map((e) => {
+                    return (<SkilCard nombre={e.nombre} imagen={e.imagen} />)
+                })
+            }
+        </div>
     )
 }

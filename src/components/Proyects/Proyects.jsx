@@ -16,9 +16,10 @@ export default function Proyects() {
                     <Tab>Countries App</Tab>
                 </TabList>
                 <TabPanels>
+                    {/* https://i.ibb.co/LC6bcLB/Falta-Uno-App.png */}
                     <TabPanel m={0} p={0}>
                         <div className={s.contenedorImg}>
-                            <img className={s.img} src="https://i.ibb.co/LC6bcLB/Falta-Uno-App.png" alt="" ></img>
+                            <img className={s.img} src=" https://i.ibb.co/LC6bcLB/Falta-Uno-App.png " alt="" ></img>
                             <div className={s.info}>
                                 <h3 className={s.titulo}>Falta Uno APP</h3>
                                 <p className={s.parrafo}>Diseñar y desarrollar una App para facilitar el sistema de reservas de canchas en complejos
