@@ -33,6 +33,7 @@
 }
 .left{
     width: 50%;
+    
 }
 .mensajes{
     width: 100%;
@@ -40,11 +41,27 @@
     justify-content:flex-start;
 }
 .boton {
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 .labelr{
     display: flex;
     flex-direction: column;
     margin: 10px;
     width: 50%;
+}
+.input{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(167, 167, 167);
+    margin-bottom: 15px;
+}
+.Itext{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(167, 167, 167);
+    margin-bottom: 15px;
+    height: 100%;
 }

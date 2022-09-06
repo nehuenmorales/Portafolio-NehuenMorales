@@ -63,28 +63,28 @@ export default function Contact() {
                     <IconButton m={5} icon={<FaLinkedin />} isRound='true' onClick={() => window.open("https://www.linkedin.com/in/nehuen-morales-cabrino-22b091211/")}></IconButton>
                     <IconButton m={5} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/nehuenmorales")} ></IconButton>
                 </div>
-                <Center height='200px'>
+                <Center height='60vh'>
                     <Divider orientation='vertical' />
                 </Center>
                 <form className={s.form} onSubmit={enviarEmail}>
                     <div className={s.mensajes}>
-                        <Heading mt={10} ml={2} mb={2} fontSize='2xl'>Enviar mensaje</Heading>
+                        <Heading mt={10} ml={2} mb={10} fontSize='2xl'>Enviar mensaje</Heading>
                         <div className={s.colums}>
                             <div className={s.left}>
                                 <div className={s.label}>
                                     <label><b>Nombre</b></label>
-                                    <input type="text" onChange={e => handleOnChange(e)} className="formEmail" id="nombre" name="nombre" value={input.nombre} />
+                                    <input type="text" onChange={e => handleOnChange(e)} className={s.input} id="nombre" name="nombre" value={input.nombre} />
                                     {errors.nombre ? <p style={{ color: 'red', marginBottom: '10px' }}>{errors.nombre}</p> : null}
                                 </div>
                                 <div className={s.label} >
                                     <label ><b>Email</b></label>
-                                    <input type="text" onChange={e => handleOnChange(e)} className="formEmail" id="email" name="email" value={input.email} />
+                                    <input type="text" onChange={e => handleOnChange(e)} className={s.input} id="email" name="email" value={input.email} />
                                     {errors.email ? <p style={{ color: 'red', marginBottom: '10px' }}>{errors.email}</p> : null}
                                 </div>
                             </div>
                             <div className={s.labelr} >
                                 <label ><b>Mensaje</b></label>
-                                <textarea type="text" onChange={e => handleOnChange(e)} className="formEmail" id="mensaje" name="mensaje" value={input.mensaje}></textarea>
+                                <textarea type="text" onChange={e => handleOnChange(e)} className={s.Itext} id="mensaje" name="mensaje" value={input.mensaje}></textarea>
                                 {errors.mensaje ? <p style={{ color: 'red', marginBottom: '10px' }}>{errors.mensaje}</p> : null}
                             </div>
                         </div>
