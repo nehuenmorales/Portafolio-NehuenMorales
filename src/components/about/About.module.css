@@ -18,12 +18,20 @@
     -webkit-text-fill-color: transparent;
 }
 .hola{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .text{
-            display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.holacelu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

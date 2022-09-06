@@ -45,19 +45,19 @@ export default function About() {
                 :
                 <div className={s.margin}>
                     <div className={s.container} >
-                        <Box m={5} w='100%'>
+                        <Box w='100%'>
                             <Heading className={s.heading} mb={4}>Acerca de mi</Heading>
-                            <Text className={s.hola} fontSize='2xl' m={2}>
+                            <Text className={s.holacelu} fontSize='2xl'>
                                 Hola 👋! mi nombre es Nehuen.
                             </Text>
-                            <Text className={s.text} m={10} fontSize='xl'>
+                            <Text className={s.text} mb={10} mt={10} fontSize='xl'>
                                 🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, con experiencia trabajando en tecnologías y frameworks relacionados a JavaScript.
                             </Text>
-                            <Text className={s.text} m={10} fontSize='xl'>
+                            <Text className={s.text} mb={10} fontSize='xl'>
                                 👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales relacionados a la programación.
                                 Me apasiona la tecnología y la innovación por eso quiero ser parte de ella.
                             </Text>
-                            <Text className={s.text} m={10} fontSize='xl'>
+                            <Text className={s.text} mb={10} fontSize='xl'>
                                 🍀Además de mi interés en la tecnología, tengo un interés particular en la salud, el deporte y el contacto con el medio ambiente. por eso busco unir estos mundos en mis proyectos y trabajos.
                             </Text>
                         </Box>

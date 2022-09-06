@@ -9,7 +9,7 @@ import SkilCard from "./SkilCard";
 export default function Skils() {
     return (
         <div>
-            <Heading className={s.head} m={10}>Skils</Heading>
+            <Heading className={s.head} m={10}>Skills</Heading>
             <div className={s.container}>
                 {
                     skils.map((e) => {
