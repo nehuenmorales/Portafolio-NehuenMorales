@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     height: 80vh;
-    
 }
 .form {
     width: 100%;
@@ -32,8 +31,7 @@
     width: 100%;
 }
 .left{
-    width: 50%;
-    
+    width: 50%;  
 }
 .mensajes{
     width: 100%;
@@ -64,4 +62,45 @@
     background-color: rgb(167, 167, 167);
     margin-bottom: 15px;
     height: 100%;
+}
+
+
+
+.containercelu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+
+.columscelu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.leftcelu{
+    width: 80%;  
+}
+
+.labelcelu{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 80%;
+}
+
+.formcelu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mensajescelu{
+    width: 100%;
+    align-items: center;
+    justify-content:center;
 }
