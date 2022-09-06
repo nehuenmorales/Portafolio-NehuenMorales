@@ -7,14 +7,16 @@ import Header from './components/Header/Header';
 import About from "./components/about/About";
 import Proyects from "./components/Proyects/Proyects";
 import Skils from "./components/Skils/Skils";
+import NavBAr from "./components/NavBar/NavBar";
+import Contact from "./components/Contact/Contact";
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const isDark = colorMode === "dark";
+  // const { colorMode, toggleColorMode } = useColorMode();
+  // const isDark = colorMode === "dark";
 
   return (
     <VStack p={5}>
-      <Flex w="100%">
+      {/* <Flex w="100%">
         <Heading
           ml="8" size="md" fontWeight='semibold' color="cyan.400">Nehuen</Heading>
 
@@ -22,11 +24,13 @@ function App() {
         <IconButton icon={<FaLinkedin />} isRound='true' onClick={()=> window.open("https://www.linkedin.com/in/nehuen-morales-cabrino-22b091211/")}></IconButton>
         <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={()=> window.open("https://github.com/nehuenmorales")} ></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
-      </Flex>
-      <Header ></Header>
+      </Flex> */}
+      <NavBAr></NavBAr>
+      <Header></Header>
       <About></About>
       <Proyects></Proyects>
       <Skils></Skils>
+      <Contact></Contact>
     </VStack>
   );
 }

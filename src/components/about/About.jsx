@@ -11,15 +11,19 @@ export default function About() {
                 <Image m={5} boxSize='250px' src="https://i.ibb.co/VDBQHmF/Sobremi.png"
                     alt='img' />
                 <Box m={5} w='60%'>
-                    <Heading mb={4}>Acerca de mi</Heading>
-                    <Text fontSize='xl'>
-                        ¡Hola! Soy Nehuen, un desarrollador web Full-Stack.
-
-                        Dentro de mis aptitudes reconozco que me gusta autosuperarme y estar continuamente aprendiendo, soy curioso y me encanta trabajar en equipo.
-
-                        Mis mayores fortalezas están relacionadas a la comunicación, trabajo en equipo, empatía y perseverancia.
-
-                        Me apasiona la programación y me gusta desempeñarme tanto en el front como en el back.
+                    <Heading className={s.heading} mb={4}>Acerca de mi</Heading>
+                    <Text className={s.hola} fontSize='2xl' m={2}>
+                        Hola 👋! mi nombre es Nehuen.
+                    </Text>
+                    <Text className={s.text} m={10} fontSize='xl'>
+                        🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, con experiencia trabajando en tecnologías y frameworks relacionados a JavaScript.
+                    </Text>
+                    <Text className={s.text} m={10} fontSize='xl'>
+                        👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales relacionados a la programación.
+                        Me apasiona la tecnología y la innovación por eso quiero ser parte de ella.
+                    </Text>
+                    <Text className={s.text} m={10} fontSize='xl'>
+                        🍀Además de mi interés en la tecnología, tengo un interés particular en la salud, el deporte y el contacto con el medio ambiente. por eso busco unir estos mundos en mis proyectos y trabajos.
                     </Text>
                 </Box>
             </div >

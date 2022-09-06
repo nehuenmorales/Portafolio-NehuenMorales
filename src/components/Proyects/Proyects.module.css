@@ -106,3 +106,8 @@
     z-index: 2;
     transition: all .3s;
 }
+.head{
+    background: linear-gradient(90deg, rgba(0,162,164,1) 0%, rgba(215,0,152,1) 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

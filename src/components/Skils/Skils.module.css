@@ -15,3 +15,8 @@
      transition: all .5s;
      background-color: rgb(24, 68, 105);
 }
+.head{
+    background: linear-gradient(90deg, rgba(0,162,164,1) 0%, rgba(215,0,152,1) 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    
+}
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.head{
+    background: linear-gradient(90deg, rgba(0,162,164,1) 0%, rgba(215,0,152,1) 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.colums{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 50%;
+}
+.mensajes{
+    width: 100%;
+    align-items: center;
+    justify-content:flex-start;
+}
+.boton {
+    margin-left: 10px;
+}
+.labelr{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+}

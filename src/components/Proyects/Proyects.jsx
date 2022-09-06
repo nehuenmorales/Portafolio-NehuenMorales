@@ -9,8 +9,8 @@ import s from "./Proyects.module.css"
 
 export default function Proyects() {
     return (
-        <div style={{ 'width': '100%' }}>
-            <Heading m={10}>Mis Proyectos</Heading>
+        <div style={{ 'width': "100%" }}>
+            <Heading className={s.head} mb={10}>Mis Proyectos</Heading>
 
             <div className={s.container} >
                 <Tabs className={s.tab} isFitted variant='enclosed'>
