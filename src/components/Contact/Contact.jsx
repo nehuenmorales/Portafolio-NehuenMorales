@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IconButton } from "@chakra-ui/button";
 import { FaSun, FaMoon, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { useToast } from '@chakra-ui/react'
 
 import emailjs from 'emailjs-com';
 import { Heading, Divider, Center } from '@chakra-ui/react';
@@ -8,7 +9,7 @@ import s from "./Contact.module.css"
 
 
 export default function Contact() {
-
+    const toast = useToast()
     const [errors, setErrors] = useState({
         nombre: '',
         email: '',
@@ -53,7 +54,21 @@ export default function Contact() {
         emailjs.sendForm('service_n8troi7', 'template_piceeg5', e.target, 't_5t4kxqizKDi5Kjo').then(res => {
             console.log(res);
         })
+        setInput({
+            nombre: '',
+            email: '',
+            mensaje: ''
+        })
+        // addToast()
     }
+    // const addToast = () => {
+    //     toast({
+    //         title: `Mensaje Enviado`,
+    //         status: "succes",
+    //         isClosable: true,
+    //     })
+    // }
+
 
     return (
         <>
@@ -90,7 +105,15 @@ export default function Contact() {
                         </div>
                         <div className={s.boton}>
                             {!errors.nombre && !errors.email && !errors.mensaje && input.nombre && input.mensaje && input.email ?
-                                <button type="submit" className="btn btn-primary" style={{ backgroundColor: 'rgba(0, 184, 63, 1)', border: 'none', width: "50%", margin: "0 auto", marginTop: "20px" }}>Enviar Correo</button>
+                                <button onClick={() =>
+                                    toast({
+                                        title: 'Mensaje enviado',
+                                        description: "te respondere lo antes posible",
+                                        status: 'success',
+                                        duration: 9000,
+                                        isClosable: true,
+                                    })
+                                } type="submit" className="btn btn-primary" style={{ backgroundColor: 'rgba(0, 184, 63, 1)', border: 'none', width: "50%", margin: "0 auto", marginTop: "20px" }}>Enviar Correo</button>
                                 : <button type="submit" disabled className="btn btn-primary" style={{ backgroundColor: 'rgba(195, 195, 195)', border: 'none', width: "50%", margin: "0 auto", marginTop: "20px" }}>Enviar Correo</button>
                             }
                         </div>
