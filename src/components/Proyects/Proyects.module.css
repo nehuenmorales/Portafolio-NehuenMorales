@@ -111,3 +111,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.contenedorImgcelu{
+    overflow: hidden;
+    position: relative;
+    transition: all .3s;
+}
+
+
+
