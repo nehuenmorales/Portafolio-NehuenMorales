@@ -87,9 +87,9 @@ export default function Proyects() {
                                     </div>
 
                                     <div className={s.faltauno}>
-                                        <IconButton ml={2} mt={2} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/falta-uno/proyecto-grupal.git")} />
-                                        <IconButton ml={2} mt={2} icon={<FaYoutube />} isRound='true' onClick={() => window.open("https://www.youtube.com/watch?v=poKQwUS8ZdM")} />
-                                        <IconButton ml={2} mt={2} icon={<FaGoogle />} isRound='true' onClick={() => window.open("https://falta-uno-henry.vercel.app/")} />
+                                        <IconButton ml={2} mt={2} mb={3} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/falta-uno/proyecto-grupal.git")} />
+                                        <IconButton ml={2} mt={2} mb={3} icon={<FaYoutube />} isRound='true' onClick={() => window.open("https://www.youtube.com/watch?v=poKQwUS8ZdM")} />
+                                        <IconButton ml={2} mt={2} mb={3} icon={<FaGoogle />} isRound='true' onClick={() => window.open("https://falta-uno-henry.vercel.app/")} />
                                     </div>
 
                                     <div >
@@ -109,8 +109,8 @@ export default function Proyects() {
                                         <img className={s.img} src="https://i.ibb.co/MhTs9YC/Countries-App.png" alt="" ></img>
                                     </div>
                                     <div className={s.faltauno}>
-                                        <IconButton ml={2} mt={2} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/nehuenmorales/PI-Countries.git")} />
-                                        <IconButton ml={2} mt={2} icon={<FaGoogle />} isRound='true' onClick={() => window.open("https://pi-countries-jf2a6siif-nehuenmorales.vercel.app/")} />
+                                        <IconButton ml={2} mt={2} mb={3} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/nehuenmorales/PI-Countries.git")} />
+                                        <IconButton ml={2} mt={2} mb={3} icon={<FaGoogle />} isRound='true' onClick={() => window.open("https://pi-countries-jf2a6siif-nehuenmorales.vercel.app/")} />
                                     </div>
                                     <div >
                                         <Text fontSize='2xl'>Countries - APP</Text>
