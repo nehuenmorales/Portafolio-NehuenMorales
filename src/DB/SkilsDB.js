@@ -35,5 +35,14 @@ export const skils = [
         nombre: "Git",
         imagen: "https://i.ibb.co/g7pMqg5/git.png"
     },
+    {
+        nombre: "Java",
+        imagen: "https://i.ibb.co/yV49qVB/58480979cef1014c0b5e4901.png"
+    },
+    {
+        nombre: "Spring Boot",
+        imagen: "https://img.icons8.com/color/480/null/spring-logo.png"
+    },
+
 
 ]

@@ -29,10 +29,10 @@ export default function About() {
                                 Hola 👋! mi nombre es Nehuen.
                             </Text>
                             <Text className={s.text} m={10} fontSize='xl'>
-                                🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, con experiencia trabajando en tecnologías y frameworks relacionados a JavaScript.
+                                🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, me especializo en el Stack PERN y en el desarrollo de API REST en Java y Spring Boot.
                             </Text>
                             <Text className={s.text} m={10} fontSize='xl'>
-                                👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales relacionados a la programación.
+                                👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales.
                                 Me apasiona la tecnología y la innovación por eso quiero ser parte de ella.
                             </Text>
                             <Text className={s.text} m={10} fontSize='xl'>
@@ -51,10 +51,10 @@ export default function About() {
                                 Hola 👋! mi nombre es Nehuen.
                             </Text>
                             <Text className={s.text} mb={10} mt={10} fontSize='xl'>
-                                🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, con experiencia trabajando en tecnologías y frameworks relacionados a JavaScript.
+                                🚀Soy desarrollador Full-Stack graduado de Henry Bootcamp, me especializo en el Stack PERN y en el desarrollo de API REST en Java y Spring Boot.
                             </Text>
                             <Text className={s.text} mb={10} fontSize='xl'>
-                                👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales relacionados a la programación.
+                                👨‍💻Me gusta superarme y aprender cosas nuevas todos los días. Actualmente sigo estudiando y aplicando los conocimientos en nuevos proyectos personales.
                                 Me apasiona la tecnología y la innovación por eso quiero ser parte de ella.
                             </Text>
                             <Text className={s.text} mb={10} fontSize='xl'>
